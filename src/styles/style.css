@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css$family=Hind+Siliguri|Merriweather|Vollkorn&display=swap');
+
+@media screen and (max-width: 440px) {
+    /* Mobile Screens */
+    .show-for-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 440px) {
+    /* desktop Screens */
+    .show-for-mobile {
+        display: none;
+    }
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    color: #7F2634;
+    height: 100vh;
+    margin: 0
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    border: 10px;
+    border-color: maroon;
+}
+
+.topnav a {
+    float: center;
+    color: white;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    vertical-align: center;
+}
+
+.topnav a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: maroon;
+    color: white;
+}
+
+h1 {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+p,
+article {
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.8;
+    color: white;
+}
+
+.intro {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+    padding: 25;
+    color: white;
+}
+
+.header {
+    background-color: rbg(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: maroon;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    width: 30%;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 5rem 5rem 5rem;
+}
+
+.airplaneHeader {
+    background-color: rbg(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: maroon;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.airplaneHeader img {
+    width: 30%;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 5rem 5em 5rem;
+}
+
+.scifiHeader {
+    background-color: rbg(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: maroon;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scifiHeader img {
+    width: 30%;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 5rem 5em 5rem;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: gray;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.individualAirplane {
+    background-color: rbg(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: maroon;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: bottom;
+}
+
+.individualAirplane img {
+    width: 30%;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 5rem 5em 5rem;
+}
+
+.individualSFVehicle {
+    background-color: rbg(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: maroon;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: bottom;
+}
+
+.individualSFVehicle img {
+    width: 30%;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 5rem 5em 5rem;
+}
+
+img.photo {
+    height: 100px;
+    width: 200px;
+}
+
+.story img {
+    height: 400px;
+    width: 800px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+.story {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+    padding: 25;
+    color: lightsteelblue;
+}
+
+.story p {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+    padding: 25;
+    color: white;
+}
+
+table {
+    border-spacing: 1px;
+    border: 1px solid lightsteelblue;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid lightsteelblue;
+}
+
+th {
+    width: 25%;
+    text-align: right;
+    border: 1px solid lightsteelblue;
+}
+
+td {
+    width: 65%;
+    text-align: left;
+    border: 1px solid lightsteelblue;
+}
+
+.centered {
+    width: 1400px;
+}
+
+.columns {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.columns div {
+    width: 250px;
+    float: left;
+}
+
+.rows {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.rows div {
+    height: 400px;
+    float: left;
+}
+
+.usColumns {
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.gbColumns {
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.gerColumns {
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.japColumns {
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.othColumns {
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+img.usBox {
+    height: 100px;
+    width: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+img.gbBox {
+    height: 100px;
+    width: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+img.gerBox {
+    height: 100px;
+    width: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+img.japBox {
+    height: 100px;
+    width: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+img.othBox {
+    height: 100px;
+    width: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+
+.sciencefiction {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+img.sfBox {
+    height: 100px;
+    width: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    flex-grow: 2;
+}

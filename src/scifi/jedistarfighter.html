@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jedi Starfighter</title>
+    <link href="../styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css.font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function() {
+            var scrollTop = $(window).scrollTop();
+            var height = $(window).height();
+            $('.header').css({
+                'opacity': ((height - 1.3 * scrollTop) / height)
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+
+    <header class="individualSFVehicle">
+        <img src="../img/boxart/scifi/ba_finemolds_jedistarfighter.JPG" alt="Jedi Starfighter">
+        <h1>Jedi Starfighter with Hyperspace Ring</h1>
+    </header>
+
+    <br>
+    <br>
+    <br>
+
+    <main>
+        <div class="story">
+            <header>
+                <table align="center" cellpadding=10 style="width:90%">
+                    <tr>
+                        <th>Kit</th>
+                        <td colspan=3>Jedi Starfighter</td>
+                    </tr>
+                    <tr>
+                        <th>Manufacturer</th>
+                        <td>Fine Molds</td>
+                        <th>Scale</th>
+                        <td>1/72</td>
+                    </tr>
+                    <tr>
+                        <th>Kit Number</th>
+                        <td></td>
+                        <th>Price</th>
+                        <td>$25</td>
+                    </tr>
+                    <tr>
+                        <th>Subject Modeled</th>
+                        <td colspan=3>Obi-Wan Kenobi's Jedi Starfighter, Star Wars: Episode II - Attack of the Clones</td>
+                    </tr>
+                    <tr>
+                        <th>Start Date</th>
+                        <td colspan=3></td>
+                    </tr>
+                    <tr>
+                        <th>Complete Date</th>
+                        <td colspan=3></td>
+                    </tr>
+                </table>
+            </header>
+            <p>
+                The Buffalo was not a very good airplane, but I had always wanted to build one. I think some time in the early part of the 2000s, I found it on the shelf at Hobby Lobby. I bought one but that was after I had mentioned it to my mother-in-law, who ended
+                up getting one of these for me for Christmas. I still have one waiting to be built as a result. This kit was typical Tamiya quality. It went together without any issues, and I had a good time going outside of my normal comfort zone by
+                doing a Buffalo in a more-or-less obscure military from World War II.
+            </p>
+            <img src="../img/scifi/72_JediStarfighter_1.JPG" alt="Jedi Starfighter">
+            <img src="../img/scifi/72_JediStarfighter_2.JPG" alt="Jedi Starfighter">
+            <img src="../img/scifi/72_JediStarfighter_3.JPG" alt="Jedi Starfighter">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h4>Copyright © 2019 TSM Software, Inc.</h4>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steven's Sci-Fi Vehicles</title>
+    <link href="../styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css.font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function() {
+            var scrollTop = $(window).scrollTop();
+            var height = $(window).height();
+            $('.header').css({
+                'opacity': ((height - 1.3 * scrollTop) / height)
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+
+    <header class="scifiHeader">
+        <img src="../img/SciFi/48_Bandai_XWing_3.JPG" alt="X-Wing">
+        <h2>Steven's Sci-Fi Vehicles</h2>
+    </header>
+
+    <br>
+    <br>
+
+
+    <div class="centered">
+        <div class="rows">
+            <div class="sciencefiction">
+                <a href="xwing48.html"><img class="sfBox" src="../img/boxart/SciFi/ba_amt_bird_of_prey.jpeg" alt="Bird of Prey"></a>
+                <a href="xwing48.html"><img class="sfBox" src="../img/boxart/SciFi/ba_bandai_xwing48.JPG" alt="X-Wing"></a>
+                <a href="jedistarfighter.html"><img class="sfBox" src="../img/boxart/SciFi/ba_finemolds_jedistarfighter.JPG" alt="Jedi Starfighter"></a>
+                <a href="c57.html"><img class="sfBox" src="../img/boxart/SciFi/ba_polarlights_c57.JPG" alt="C-57"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

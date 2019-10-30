@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monogram Wright Flyer</title>
+    <link href="../styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css.font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function() {
+            var scrollTop = $(window).scrollTop();
+            var height = $(window).height();
+            $('.header').css({
+                'opacity': ((height - 1.3 * scrollTop) / height)
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+
+    <header class="individualAirplane">
+        <img src="../img/boxart/aircraft/us/PreWar/ba_hasegawa_f4b4.jpg" alt="F4B4">
+        <h1>Boeing F4B-4</h1>
+    </header>
+
+    <br>
+    <br>
+    <br>
+
+    <main>
+        <div class="story">
+            <header>
+                <table align="center" cellpadding=10 style="width:90%">
+                    <tr>
+                        <th>Kit</th>
+                        <td colspan=3>Boeing F4B-4</td>
+                    </tr>
+                    <tr>
+                        <th>Manufacturer</th>
+                        <td>Hasegawa</td>
+                        <th>Scale</th>
+                        <td>1/32</td>
+                    </tr>
+                    <tr>
+                        <th>Kit Number</th>
+                        <td>S7</td>
+                        <th>Price</th>
+                        <td>$</td>
+                    </tr>
+                    <tr>
+                        <th>Subject Modeled</th>
+                        <td colspan=3>VF-6B, 1932 - 1936 U.S.S. Saratoga</td>
+                    </tr>
+                    <tr>
+                        <th>Start Date</th>
+                        <td colspan=3>2004</td>
+                    </tr>
+                    <tr>
+                        <th>Complete Date</th>
+                        <td colspan=3>2004</td>
+                    </tr>
+                </table>
+            </header>
+            <p>
+                This was not the first bi-plane I attempted to build after I returned to this hobby in 1995, but it was the first that I installed rigging between the wings. I used some wire intended floral design, which ended up being far too large for the scale. But
+                I was able to rig the F4B-4 to my satisfaction at the time, although if I was to do this build again, I would certainly use the skills I have developed over the years since I built this one and rig it with EZ Line. I'd also likely weather-beat
+                this bird.
+            </p>
+            <img src="../img/Aircraft/f4b/32_Hasegawa_F4B4_1.JPG" alt="F4B-4">
+            <img src="../img/Aircraft/f4b/32_Hasegawa_F4B4_2.JPG" alt="F4B-4">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h4>Copyright © 2019 TSM Software, Inc.</h4>
+    </footer>
+</body>
+
+</html>
